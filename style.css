@@ -1,0 +1,32 @@
+body {
+    height: 2000px; /* Para permitir desplazamiento */
+}
+.tarjeta {
+    margin-top: 100px; /* Colocar el objetivo en algún lugar visible */
+    background-color: yellow;
+    padding: 20px;
+}
+
+/*para mostrar y ocultar parrafo*/
+#parrafo2 {
+    display: none;
+}
+/*para mostrar y ocultar parrafo*/
+
+/*animacion de caja*/
+.cajal {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.5s ease; /* Definir una transición para suavizar la animación */
+}
+
+.cajal.animate {
+    transform: scale(1.5); /* Cambiar la escala de la caja para la animación */
+}
+/*animacion de caja*/
+
+
+
+
+
